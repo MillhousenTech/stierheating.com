@@ -43,8 +43,31 @@
   color: rgba(255, 255, 255, 0.9);
 }
 
+
+#hero {
+	min-height: 400px;
+	background: url("../img/hero-hotorcold.jpg");
+	background-repeat: no-repeat;
+	backgroun-position: right;
+	background-size: cover;
+}
+#hero img {
+	margin: 35vh 0;
+}
+
+
 @media (max-width: 992px) {
   .circle {
     display: none;
   }
+	#hero {
+	hero: 50px;
+	background: url("../img/hero-hotorcold-m.jpg");
+	background-repeat: no-repeat;
+	backgroun-position: right;
+	background-size: cover;
+	}
+	#hero img {
+	margin: 15vh 0;
+	}
 }
