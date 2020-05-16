@@ -2,82 +2,335 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=" crossorigin="anonymous" />
-  <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-  <link rel="icon" href="img/favicon.png">
-  <title>Stier Heating &amp; Cooling</title>
+  {{include "/templates/head.html"}}
+  <meta name="description"
+    content="Located in Greensburg, Indiana, Stier Heating and Cooling's professional team has been serving the area with their HVAC expertise for over twenty years. Whether you need furnace repair, air conditioner repair, or are looking at a new system, we have the professionals you need.">
+  <title>Stier Heating &amp; Cooling | Greensburg, IN</title>
 </head>
 
 <body>
-  <div class="row head">
-    <div class="col-md-6">
-<div class="logo">
-<h1>STIER</h1>
-<h1>HEATING &amp; COOLING</h1>
-<h1>INC.</h1>
-</div>
-</div>
-<div class="col-md-6"><div class="phone"><h2 class="service">24/7 Service Available</h2><h2><a href="tel:18126628292">812-662-8292</a></h2></div></div>
-</div>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSHC" aria-controls="navbarSHC" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-center" id="navbarSHC">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Heating</a>
-        </li>
-        <span class="circle"></span>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Cooling</a>
-        </li>
-        <span class="circle"></span>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Geothermal</a>
-        </li>
-        <span class="circle"></span>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Fireplace</a>
-        </li>
-        <span class="circle"></span>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Chimney Sweep</a>
-        </li>
-        <span class="circle"></span>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Big Green Egg</a>
-        </li>
-      </ul>
+  {{include "/templates/header.html"}}
+  <div class="row m-0 mb-5">
+    <div class="col-md-6 p-0">
+      <img src="img/truck.jpg" class="img-fluid" alt="Stier Heating & Cooling Truck">
     </div>
-  </nav>
-	<div class="container-fluid" id="hero">
-		<div class="row">
-			<div class="col-6 mx-auto d-none d-lg-block">
-				<img src="img/hero-text.png" class="img-fluid" alt="Heating and Cooling">
-			</div>
-			<div class="col-6 mx-auto d-lg-none">
-				<img src="img/hero-text-m.png" class="img-fluid" alt="Heating and Cooling">
-			</div>
-		</div>
-	</div>
-	
-	<!--
-  <img src="img/store.jpg" class="img-fluid store" />
-
-  <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-6 p-0">
+      <img src="img/team.jpg" class="img-fluid" alt="Stier Heating & Cooling Team">
     </div>
-    <div class="col-md-6">
+  </div>
+  <div class="container mb-5">
+    <h2 class="text-center text-primary front-title">Family Owned and Operated Business</br>Serving the Greensburg Area
+      Since 1999</h2>
+    <p>Located in Greensburg, Indiana, Stier Heating and Cooling's professional team has been serving the area with
+      their HVAC expertise for over twenty years. Whether you need furnace repair, air conditioner repair, or are
+      looking at a new system, we have the professionals you need. Expertise is exactly what you need to achieve optimal
+      home comfort
+      while lowering your energy costs. We install the latest HVAC equipment from the most reputable brands like Carrier
+      and ClimateMaster that are backed by the best warranties.</p>
 
-    </div>-->
- 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha256-CjSoeELFOcH0/uxWu6mC/Vlrc1AARqbm/jiiImDGV3s=" crossorigin="anonymous"></script>
+  </div>
+  <!-- Page Content -->
+
+
+  <div class="container-fluid bg-primary m-0">
+    <div class="container py-5">
+      <div class="text-white">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Sales, Service, and Installation</h2>
+            <h3>Experts You Can Trust</h3>
+            <p>Whether you need maintenance performed on your current system or want to buy a new, more efficient
+              system, we have the people and equipment to make it happen!</p>
+
+            <div class="container">
+              <div class="row text-center text-lg-left">
+
+                <div class="col-lg-3 col-md-4 col-6 align-self-center">
+                  <a href="https://www.carrier.com/residential/en/us/find-a-dealer/detail/?zipcode=47240&country=USA&dealerId=73881"
+                    target="_blank" class="d-block mb-4 h-100">
+                    <img class="img-fluid" src="img/brands/carrier-fad1.png" alt="Carrier Factory Authorized Dealer">
+                  </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 align-self-center">
+                  <a href="https://web.csia.org/CSIA-Certified/Patrick-Stier-9422" target="_blank"
+                    class="d-block mb-4 h-100">
+                    <img class="img-fluid" src="img/brands/certified-chimney-sweep.png" alt="Certified Chimney Sweep">
+                  </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 align-self-center">
+                  <a href="https://www.bbb.org/us/in/greensburg/profile/heating-and-air-conditioning/stier-heating-cooling-inc-0382-36000207"
+                    target="_blank" class="d-block mb-4 h-100">
+                    <img class="img-fluid" src="img/brands/bbb1.png" alt="Better Business Bureau A+">
+                  </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 align-self-center">
+                  <a href="https://natex.org/" target="_blank" class="d-block mb-4 h-100">
+                    <img class="img-fluid rounded-lg" src="img/brands/nate.jpg"
+                      alt="North American Technician Excellence Certified Technicians">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h3>Reviews</h3>
+            <div class="card text-dark" style="width: 24rem;">
+              <div class="card-body">
+                <h5 class="card-title">Cory Evans</h5>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+
+                <p class="card-text">They put in my hybrid heat pump furnace did a excellent job. Then around christmas
+                  had a water pipe burst they came out promptly and replaced the duct work that was saturated and
+                  checked the furnace for water damage. Great service very knowledgable.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid m-0">
+    <div class="container py-5">
+
+      <h2>Products and Services</h2>
+      <div class="row">
+        <div class="col-md-3" style="float:left">
+          <div class="card mb-2">
+            <img class="card-img-top" src="img/products/Carrier_Outdoor_Unit_Straight_On.jpg"
+              alt="Carrier Air Conditioner">
+            <div class="card-body">
+              <h4 class="card-title">Air Conditioners</h4>
+              <p class="card-text">The latest A/C units from Carrier are engineered for comfort and efficiency.</p>
+              <a class="btn btn-primary text-white" href="/products/air-conditioners/">More Info</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3" style="float:left">
+          <div class="card mb-2">
+            <img class="card-img-top" src="img/products/tranquility_climatemaster-cropped.jpg"
+              alt="ClimateMaster Geothermal Unit">
+            <div class="card-body">
+              <h4 class="card-title">Geothermal</h4>
+              <p class="card-text">Use to Earth's natural heat to keep your home comfortable with a new ClimateMaster.
+              </p>
+              <a class="btn btn-primary text-white" href="/products/geothermal/">More Info</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3" style="float:left">
+          <div class="card mb-2">
+            <img class="card-img-top" src="img/products/Carrier_Infinity_Furnace_IAQ_Products.jpg"
+              alt="Carrier Furnace">
+            <div class="card-body">
+              <h4 class="card-title">Furnaces</h4>
+              <p class="card-text">A new Carrier furnace could significantly reduce your utility bills.</p>
+              <a class="btn btn-primary text-white" href="/products/furnaces/">More Info</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3" style="float:left">
+          <div class="card mb-2">
+            <img class="card-img-top" src="img/products/regency-b36xtce.jpg" alt="Regency Gas Fireplace Insert">
+            <div class="card-body">
+              <h4 class="card-title">Fireplaces</h4>
+              <p class="card-text">Add some warmth and a relaxing ambiance to your home with a fireplace.</p>
+              <a class="btn btn-primary text-white" href="/products/fireplaces/">More Info</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div id="hiddenProducts" class="collapse">
+
+          <div class="col-md-3" style="float:left">
+            <div class="card mb-2">
+              <img class="card-img-top" src="img/products/CheckingGauges.jpg" alt="Air Conditioner Repair">
+              <div class="card-body">
+                <h4 class="card-title">Maintenance</h4>
+                <p class="card-text">Whether you need emergent furnace or air conditioner repair or want an annual
+                  tune-up, we have you covered.</p>
+                <a class="btn btn-primary text-white">Info Coming Soon</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3" style="float:left">
+            <div class="card mb-2">
+              <img class="card-img-top" src="img/products/Couple_Living_Room.jpg" alt="Home with Healthy Air">
+              <div class="card-body">
+                <h4 class="card-title">Air Filtration</h4>
+                <p class="card-text">Eliminate mold, bacteria, and other pollutants from your air with our air
+                  filtration equipment.</p>
+                <a class="btn btn-primary text-white">Info Coming Soon</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3" style="float:left">
+            <div class="card mb-2">
+              <img class="card-img-top" src="img/products/hearthstone-heritage.png" alt="Hearthstone Wood Stove">
+              <div class="card-body">
+                <h4 class="card-title">Wood Stoves</h4>
+                <p class="card-text">A new wood stove makes for a beautiful centerpiece in your home and will also burn
+                  wood more efficiently.</p>
+                <a class="btn btn-primary text-white" href="/products/wood-stoves/">More Info</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3" style="float:left">
+            <div class="card mb-2">
+              <img class="card-img-top" src="img/products/chimney.jpg" alt="Brick and Mortar Chimney">
+              <div class="card-body">
+                <h4 class="card-title">Chimney Sweep</h4>
+                <p class="card-text">If you have a chimney, you should consider getting it swept and inpected annually
+                  to prevent chimney fires and keep your family safe.</p>
+                <a class="btn btn-primary text-white" href="/products/chimney-sweep/">More Info</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3" style="float:left">
+            <div class="card mb-2">
+              <img class="card-img-top" src="img/products/big-green-egg-cropped.jpg" alt="Big Green Egg on deck">
+              <div class="card-body">
+                <h4 class="card-title">Big Green Egg</h4>
+                <p class="card-text">Get The Ultimate Cooking Experience with the Big Green Egg.</p>
+                <a class="btn btn-primary text-white" href="/products/big-green-egg/">More Info</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3" style="float:left">
+            <div class="card mb-2">
+              <img class="card-img-top" src="img/products/Interior_ShiplapWall_wDuctless-Straight.jpg"
+                alt="Carrier Ductless Split in Apartment">
+              <div class="card-body">
+                <h4 class="card-title">Ductless</h4>
+                <p class="card-text">If ductwork is unfeasable or you want targeted comfort control, a ductless system
+                  may be helpful for you.</p>
+                <a class="btn btn-primary text-white">Info Coming Soon</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3" style="float:left">
+            <div class="card mb-2">
+              <img class="card-img-top" src="img/products/ecobee.jpg" alt="ecobee Thermostat">
+              <div class="card-body">
+                <h4 class="card-title">Thermostats</h4>
+                <p class="card-text">We carry a variety of thermotats, from basic control to the ecobee smart
+                  thermostat.</p>
+                <a class="btn btn-primary text-white">Info Coming Soon</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3" style="float:left">
+            <div class="card mb-2">
+              <img class="card-img-top" src="img/products/outdoor-firepit.jpg"
+                alt="Warming Trends Outdoor Firepit with Landscaping">
+              <div class="card-body">
+                <h4 class="card-title">Outdoor Firepits</h4>
+                <p class="card-text">Light up your patio with an outdoor firepit from Warming Trends.</p>
+                <a class="btn btn-primary text-white" href="/products/outdoor-firepits/">More Info</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary mt-2" data-toggle="collapse" data-target="#hiddenProducts">See
+          More</button>
+      </div>
+
+    </div>
+  </div>
+  <div class="container-fluid bg-primary text-white" id="contact">
+    <div class="container py-5">
+      <div class="row text-center">
+        <div class="col-md-6">
+          <h4>STIER HEATING &amp; COOLING INC.</h4>
+          <p class="m-0">902 N Lincoln St.</p>
+          <p class="m-0">Greensburg, IN 47240</p>
+          <a href="tel:8126628292" class="text-white">812-662-8292</a>
+        </div>
+        <div class="col-md-6">
+          <p><strong>Hours</strong><br>
+            <table class="mx-auto">
+              <tr>
+                <th>Mon-Fri</th>
+                <td class="pl-2">8:00am - 4:30pm</td>
+              </tr>
+              <tr>
+                <th>Sat</th>
+                <td class="pl-2">8:00am - 12:00pm</td>
+              </tr>
+            </table>
+          </p>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <form action="https://formspree.io/contact@stierheating.com" method="POST"></form>
+        <div class="col-md-6">
+          <h4>Contact Us</h4>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Full Name</label>
+            <input required name="name" type="text" class="form-control" id="exampleTextInput"
+              aria-describedby="emailHelp" placeholder="Enter full name">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input required name="email" type="email" class="form-control" id="exampleInputEmail1"
+              aria-describedby="emailHelp" placeholder="john@example.com">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPhone1">Phone Number</label>
+            <input required name="phone" type="tel" class="form-control" id="exampleInputPhone1"
+              aria-describedby="phoneHelp" placeholder="812-222-0000">
+          </div>
+
+        </div>
+        <div class="col-md-6">
+          <div class="mt-5 container-fluid">
+            <label class="mr-sm-2" for="inlineFormCustomSelect">Category</label>
+            <select class="custom-select mb-3 mr-sm-2" id="inlineFormCustomSelect">
+              <option selected>Choose...</option>
+              <option value="1">Air Conditioners</option>
+              <option value="2">Geothermal</option>
+              <option value="3">Furnaces</option>
+              <option value="4">Fireplaces</option>
+              <option value="5">Maintenance</option>
+              <option value="6">Air Filtration</option>
+              <option value="7">Wood Stoves</option>
+              <option value="8">Chimney Sweep</option>
+              <option value="9">Big Green Egg</option>
+              <option value="10">Ductless</option>
+              <option value="11">Thermostats</option>
+              <option value="12">Outdoor Firepits</option>
+            </select>
+            <div class="form-group">
+              <label for="exampleTextarea">Enter your message</label>
+              <textarea required name="message" class="form-control" id="exampleTextarea" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark" style="cursor:pointer">Submit</button>
+            <small id="formHelp" class="form-text text-gray">We will get back with you during normal business
+              hours.</small>
+            <small id="formHelp" class="form-text text-gray">If you need emergency service, call <a class="text-white"
+                href="tel:8126628292">812-662-8292</a></small>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid p-0">
+    <iframe id="map"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2181.754873703808!2d-85.48051657158977!3d39.34565238643977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x27e12e8097bbb141!2sStier%20Heating%20%26%20Cooling%20Inc!5e0!3m2!1sen!2sus!4v1589328536827!5m2!1sen!2sus"
+      class="google-maps" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+      aria-hidden="false" tabindex="0"></iframe>
+  </div>
+  {{include "/templates/footer.html"}}
 </body>
 
 </html>
