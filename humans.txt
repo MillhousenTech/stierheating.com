@@ -1,0 +1,11 @@
+/* TEAM */
+	Developer: Kenneth Stier
+	Contact: kenny [at] kstr.us
+	Twitter: @KennyStier61
+	From: Millhousen, Indiana, USA
+
+/* SITE */
+	Last update: 2020/05/16
+	Standards: HTML5, CSS3, Bootstrap4
+	Components: Bootstrap4, jQuery
+	IDE: VSCode, git, Brave Browser

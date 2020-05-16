@@ -1,0 +1,4 @@
+Sitemap: https://stierheating.com/sitemap.xml
+User-agent: *
+Disallow:
+
